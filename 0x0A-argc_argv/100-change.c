@@ -21,7 +21,6 @@ if (argc != 2)
 printf("Error\n");
 return (1);
 }
-
 total = atoi(argv[1]); /*Covert str to int*/
 
 if (total <= 0)
@@ -40,9 +39,7 @@ aux = (total / coins[position]);
 change += aux;
 total -= coins[position] * aux;
 }
-
 position++;
-
 }
 printf("%d\n", change)
 return (0);
