@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 	if (!func)
 	{
 		printf("Error\n");
-		exit(99);c
+		exit(99);
 	}
 
 	o = *argv[2];
