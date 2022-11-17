@@ -1,22 +1,14 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _memcpy - a function that copies memory area
- * @dest: memory where is stored
- * @src: memory where is copied
- * @n: number of bytes
- *
- * Return: copied memory with n byted changed
+ * set_string - sets the value of a pointer to a char
+ * @s: source adress.
+ * @to: target adress.
+ * Return: no return.
  */
-char *_memcpy(char *dest, char *src, unsigned int n)
-{
-	int r = 0;
-	int i = n;
 
-	for (; r < i; r++)
-	{
-		dest[r] = src[r];
-		n--;
-	}
-	return (dest);
+void set_string(char **s, char *to)
+{
+	*s = to;
 }
