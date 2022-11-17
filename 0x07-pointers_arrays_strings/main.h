@@ -6,7 +6,7 @@
  * Auth: Adigun praise (praisedoumar)
  * description: Header file containing all prototypes for all functions
  */
-#include<stdef.h>
+#include <stdlib.h>
 
 char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
